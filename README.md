@@ -5,7 +5,6 @@ Aplikasi web **Pokemon Training Academy** adalah sistem manajemen training Pokem
 ## 📋 Daftar Isi
 
 - [Fitur Utama](#-fitur-utama)
-- [Teknologi](#-teknologi)
 - [Struktur File](#-struktur-file)
 - [Cara Menjalankan](#-cara-menjalankan)
 - [Penjelasan Kode](#-penjelasan-kode)
