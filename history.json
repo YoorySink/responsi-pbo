@@ -1,0 +1,37 @@
+[
+    {
+        "time": "2025-11-29 08:42:49",
+        "pokemon": "Raichu",
+        "text": "Attack (Electric) 30min",
+        "before": {
+            "level": 27,
+            "hp": 3150,
+            "atk": 132,
+            "def": 8,
+            "spd": 10,
+            "energy": 100,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡",
+                "Thunder Bolt ⚡⚡"
+            ]
+        },
+        "after": {
+            "level": 31,
+            "hp": 3600,
+            "atk": 152,
+            "def": 8,
+            "spd": 10,
+            "energy": 70,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡",
+                "Thunder Bolt ⚡⚡",
+                "Volt Tackle ⚡💥"
+            ]
+        },
+        "unlocked": [
+            "Volt Tackle ⚡💥"
+        ]
+    }
+]
