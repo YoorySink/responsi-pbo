@@ -1,7 +1,7 @@
 #  Pokemon Training Academy
 ![demo](https://github.com/YoorySink/fachrielYogaWicaksono_H1H024042_ResponsiPBO25/blob/main/Pok%C3%A9mon%20Training%20Academy%20-%20Home%20-%20Google%20Chrome%202025-11-29%2017-35-57.gif?raw=true)
 
-Aplikasi web **Pokemon Training Academy** adalah sistem manajemen training Pokemon yang dibangun dengan **PHP native murni** tanpa framework. Aplikasi ini menerapkan konsep **Object-Oriented Programming (OOP)** dengan interface, abstract class, Polymorphism, dan inheritance untuk mengelola 4 jenis elemen Pokemon (Electric, Grass, Fire, Water).
+Aplikasi web Pokemon Training Academy adalah sistem manajemen training Pokemon yang dibangun dengan PHP. Aplikasi ini menerapkan konsep **Object-Oriented Programming (OOP)** dengan interface, abstract class, Polymorphism, dan inheritance untuk mengelola 4 jenis elemen Pokemon (Electric, Grass, Fire, Water) terfokus pada raichu.
 
 ## Daftar Isi
 
