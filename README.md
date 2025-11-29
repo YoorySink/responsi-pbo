@@ -512,41 +512,41 @@ Show Alert & Refresh Page
 
 ## Cara Bermain
 
-### 1️⃣ **Pilih Pokemon**
+### 1 **Pilih Pokemon**
 Klik salah satu dari 4 Pokemon yang tersedia:
 - **Raichu** (Electric) - High ATK
 - **Bulbasaur** (Grass) - High DEF
 - **Charmander** (Fire) - Balanced
 - **Squirtle** (Water) - High DEF
 
-### 2️⃣ **Pilih Training Category**
+### 2 **Pilih Training Category**
 - 🎯 **Attack**: Meningkatkan ATK
 - 🛡️ **Defense**: Meningkatkan DEF
 - ⚡ **Speed**: Meningkatkan SPD
 
-### 3️⃣ **Generate Choices**
+### 3 **Generate Choices**
 Klik "🎲 Generate Choices" untuk mendapatkan 3 pilihan training random dengan bonus berbeda (1-3).
 
-### 4️⃣ **Pilih Training Type**
+### 4 **Pilih Training Type**
 Pilih salah satu dari 3 pilihan. **Tips**: Pilih type yang sama dengan Pokemon type untuk bonus 2x!
 
-### 5️⃣ **Pilih Duration**
+### 5 **Pilih Duration**
 Pilih durasi training:
 - **10min**: -10 energy, gain 1 level
 - **20min**: -20 energy, gain 2 level
 - **30min**: -30 energy, gain 3 level
 
-### 6️⃣ **Start Training**
+### 6 **Start Training**
 Klik "Start Training" untuk memulai. Pokemon akan:
 - Mendapat increase HP, ATK/DEF/SPD (tergantung category)
 - Energy berkurang
 - Bisa naik level
 - Bisa unlock moves baru
 
-### 7️⃣ **Rest**
+### 7 **Rest**
 Jika energy rendah (<20), klik "😴 Rest" untuk restore energy +20.
 
-### 8️⃣ **Unlock Moves**
+### 8 **Unlock Moves**
 Pokemon otomatis unlock moves baru setiap mencapai level tertentu:
 - Level 10, 20, 30
 ![demo](https://github.com/YoorySink/fachrielYogaWicaksono_H1H024042_ResponsiPBO25/blob/main/Pok%C3%A9mon%20Training%20Academy%20-%20Google%20Chrome%202025-11-29%2016-55-26.gif?raw=true)
