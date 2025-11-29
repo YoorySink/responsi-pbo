@@ -253,31 +253,28 @@ class TrainingDescriptions {
 #### **Training Descriptions**
 
 ##### **🎯 Attack Training**
+```php
+        "Attack" => [
+            "Electric" => "Penyaluran Voltase Puncak: Fokus Petir Terpusat",
+            "Grass"    => "Badai Daun Silet: Latihan Ketajaman Klorofil",
+            "Fire"     => "Semburan Inferno: Pernapasan Inti Magma",
+            "Water"    => "Meriam Hidro: Kompresi Tekanan Air Absolut",
+        ],
 
-| Type | Electric | Grass | Fire |
-|------|----------|-------|------|
-| **Electric** | Unleash powerful Thunder attacks on targets | Control lightning strikes with precision | Generate massive electric surges |
-| **Grass** | Strike through dense vegetation efficiently | Execute rapid vine-based combos | Master grass-cutting techniques |
-| **Fire** | Perfect your flame-punching techniques | Learn to control fire intensity | Execute devastating fire strikes |
-| **Water** | Practice high-pressure water strikes | Master fluid combat movements | Perfect tsunami-level attacks |
+        "Defense" => [
+            "Electric" => "Jubah Medan Magnet: Tolakan Statis",
+            "Grass"    => "Meditasi Akar Tua: Pengerasan Kulit Kayu",
+            "Fire"     => "Tameng Uap Panas: Evaporasi Serangan Air",
+            "Water"    => "Zirah Cairan Non-Newtonian: Adaptasi Benturan",
+        ],
 
-##### **🛡️ Defense Training**
-
-| Type | Electric | Grass | Fire |
-|------|----------|-------|------|
-| **Electric** | Build resistance to electric attacks | Create protective static barriers | Generate defensive electric shields |
-| **Grass** | Strengthen your natural plant armor | Grow protective vines and barriers | Master forest fortification |
-| **Fire** | Endure extreme heat conditions | Build heat-resistant stamina | Master fire-resistant techniques |
-| **Water** | Practice underwater breathing | Build resistance to water pressure | Master aquatic defense |
-
-##### **⚡ Speed Training**
-
-| Type | Electric | Grass | Fire |
-|------|----------|-------|------|
-| **Electric** | Channel electricity for quick movements | Master lightning-fast reflexes | Perfect electric-speed techniques |
-| **Grass** | Practice rapid plant growth techniques | Master swift nature movements | Execute lightning-fast vine strikes |
-| **Fire** | Use fire propulsion for speed boosts | Master flame dash techniques | Perfect rapid fire movements |
-| **Water** | Swim through turbulent waters | Master water-skating techniques | Perfect aqua jet movements |
+        "Speed" => [
+            "Electric" => "Transmisi Syaraf Kilat: Refleks Kecepatan Cahaya",
+            "Grass"    => "Luncuran Fotosintesis: Manuver Hutan Rimba",
+            "Fire"     => "Akselerasi Roket Pijar: Ledakan Langkah Pembakaran",
+            "Water"    => "Aliran Arus Deras: Teknik Renang Aerodinamis",
+        ],
+```
 
 #### **Method**
 
@@ -346,7 +343,7 @@ class Training {
 - `$pokemon`: Object Pokemon yang akan di-train
 - `$chosenType`: Tipe training yang dipilih (Electric/Grass/Fire/Water)
 - `$category`: Kategori training (Attack/Defense/Speed)
-- `$duration`: Durasi training (5, 10, 15, atau 20 menit)
+- `$duration`: Durasi training (10, 20, atau 30 menit)
 
 **Output Format**:
 ```php
@@ -378,13 +375,13 @@ class Training {
 
 | Aspect | Formula |
 |--------|---------|
-| **Energy Cost** | `duration` (5min = -5 energy, 20min = -20 energy) |
-| **Base Increase** | `(duration / 5) * bonus` |
+| **Energy Cost** | `duration` (10min = -10 energy, 20min = -20 energy) |
+| **Base Increase** | `(duration / 10)` |
 | **Same Type Bonus** | Bonus x2 jika tipe training = tipe Pokemon |
 | **HP Increase** | `base * 10` |
-| **Attack Increase** | `base * 1` (jika category = Attack) |
-| **Defense Increase** | `base * 1` (jika category = Defense) |
-| **Speed Increase** | `base * 1` (jika category = Speed) |
+| **Attack Increase** | `base + 20` (jika category = Attack) |
+| **Defense Increase** | `base + 10` (jika category = Defense) |
+| **Speed Increase** | `base + 5` (jika category = Speed) |
 | **Level Up** | Otomatis cek apakah ada moves baru yang bisa di-unlock |
 
 **Level Up Logic**:
@@ -450,11 +447,9 @@ Initialize Pokemon (if first visit)
 │ 2. Select Category (Attack/Def/Spd) │
 │ 3. Generate Choices (3 pilihan)     │
 │ 4. Select Choice                    │
-│ 5. Select Duration (10/20/30min)  │
+│ 5. Select Duration (10/20/30min)    │
 │ 6. Click Start Training             │
 └─────────────────────────────────────┘
-    ↓
-POST to index.php
     ↓
 Process Training (Training::process)
     ↓
@@ -525,7 +520,7 @@ Show Alert & Refresh Page
 
 ---
 
-## 🎮 Cara Bermain
+## Cara Bermain
 
 ### 1️⃣ **Pilih Pokemon**
 Klik salah satu dari 4 Pokemon yang tersedia:
@@ -552,7 +547,7 @@ Pilih durasi training:
 - **30min**: -30 energy, gain 3 level
 
 ### 6️⃣ **Start Training**
-Klik "💪 Start Training" untuk memulai. Pokemon akan:
+Klik "Start Training" untuk memulai. Pokemon akan:
 - Mendapat increase HP, ATK/DEF/SPD (tergantung category)
 - Energy berkurang
 - Bisa naik level
@@ -567,7 +562,7 @@ Pokemon otomatis unlock moves baru setiap mencapai level tertentu:
 
 ---
 
-## 🏗️ Design Patterns
+##  Design Patterns
 
 | Pattern | Implementasi |
 |---------|--------------|
