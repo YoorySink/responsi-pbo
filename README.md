@@ -33,7 +33,7 @@ Aplikasi web **Pokemon Training Academy** adalah sistem manajemen training Pokem
   -  **Defense Training**: Meningkatkan DEF
   -  **Speed Training**: Meningkatkan SPD
 - **Training Variations**: Setiap kategori memiliki 3 variasi training dengan bonus berbeda
-- **Duration Options**: 5min, 10min, 15min, 20min dengan konsumsi energy berbeda
+- **Duration Options**: 10min, 20min, 30min, dengan konsumsi energy berbeda
 - **History System**: Menyimpan semua aktivitas training ke file JSON
 
 ---
