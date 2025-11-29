@@ -1,4 +1,4 @@
-# 🎮 Pokemon Training Academy
+#  Pokemon Training Academy
 
 Aplikasi web **Pokemon Training Academy** adalah sistem manajemen training Pokemon yang dibangun dengan **PHP native murni** tanpa framework. Aplikasi ini menerapkan konsep **Object-Oriented Programming (OOP)** dengan interface, abstract class, Polymorphism, dan inheritance untuk mengelola 4 jenis elemen Pokemon (Electric, Grass, Fire, Water).
 
@@ -28,16 +28,16 @@ Aplikasi web **Pokemon Training Academy** adalah sistem manajemen training Pokem
 - **Stats System**: HP, ATK, DEF, SPD yang bertambah setiap naik level
 - **Unlock Moves**: Pokemon mendapatkan move baru setiap mencapai level tertentu
 - **3 Kategori Training**:
-  - 🎯 **Attack Training**: Meningkatkan ATK
-  - 🛡️ **Defense Training**: Meningkatkan DEF
-  - ⚡ **Speed Training**: Meningkatkan SPD
+  -  **Attack Training**: Meningkatkan ATK
+  -  **Defense Training**: Meningkatkan DEF
+  -  **Speed Training**: Meningkatkan SPD
 - **Training Variations**: Setiap kategori memiliki 3 variasi training dengan bonus berbeda
 - **Duration Options**: 5min, 10min, 15min, 20min dengan konsumsi energy berbeda
 - **History System**: Menyimpan semua aktivitas training ke file JSON
 
 ---
 
-## 📁 Struktur File
+##  Struktur File
 
 ```
 pokemon-training-academy/
@@ -55,7 +55,7 @@ pokemon-training-academy/
 
 ---
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 #### **1. Pastikan Semua File Ada**
 Pastikan file berikut ada di folder yang sama:
 - `pokemon.php`
@@ -78,7 +78,7 @@ http://localhost:8000
 ```
 ---
 
-## 📖 Penjelasan Kode
+##  Penjelasan Kode
 
 ### 1. `pokemon.php`
 
