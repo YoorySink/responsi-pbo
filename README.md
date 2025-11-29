@@ -37,24 +37,6 @@ Aplikasi web **Pokemon Training Academy** adalah sistem manajemen training Pokem
 
 ---
 
-##  Struktur File
-
-```
-pokemon-training-academy/
-│
-├── index.php                    # Main application file (Controller + View)
-├── pokemon.php                  # Interface Pokemon
-├── basePokemon.php              # Abstract class BasePokemon
-├── classPokemon.php             # Concrete Pokemon classes (Electric, Grass, Fire, Water)
-├── elemenMoves.php              # Class ElementMoves untuk moves setiap elemen
-├── trainingDescriptions.php     # Class TrainingDescriptions untuk deskripsi training
-├── training.php                 # Class Training untuk logic training
-├── history.json                 # JSON file untuk menyimpan history (generated)
-└── README.md                    # Dokumentasi
-```
-
----
-
 ##  Cara Menjalankan
 #### **1. Pastikan Semua File Ada**
 Pastikan file berikut ada di folder yang sama:
@@ -65,6 +47,8 @@ Pastikan file berikut ada di folder yang sama:
 - `trainingDescriptions.php`
 - `training.php`
 - `index.php`
+- `history.php`
+- `latihan.php`
 - `history.json`
 
 atau pakai autoload.php saja
@@ -367,7 +351,7 @@ class Training {
 | **Energy Cost** | `duration` (10min = -10 energy, 20min = -20 energy) |
 | **Base Increase** | `(duration / 10)` |
 | **Same Type Bonus** | Bonus x2 jika tipe training = tipe Pokemon |
-| **HP Increase** | `base * 10` |
+| **HP Increase** | `base + 100` |
 | **Attack Increase** | `base + 20` (jika category = Attack) |
 | **Defense Increase** | `base + 10` (jika category = Defense) |
 | **Speed Increase** | `base + 5` (jika category = Speed) |
@@ -442,7 +426,7 @@ class Training {
 
 ---
 
-## Cara Bermain
+## Cara mainnya 
 
 ### 1 **Pilih Pokemon**
 Klik salah satu dari 4 Pokemon yang tersedia:
