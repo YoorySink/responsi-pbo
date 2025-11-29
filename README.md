@@ -3,6 +3,8 @@
 
 Aplikasi web Pokemon Training Academy adalah sistem manajemen training Pokemon yang dibangun dengan PHP. Aplikasi ini menerapkan konsep **Object-Oriented Programming (OOP)** dengan interface, abstract class, Polymorphism, dan inheritance untuk mengelola 4 jenis elemen Pokemon (Electric, Grass, Fire, Water) terfokus pada raichu.
 
+note : ga baca perintah awal pokecare, jadi terlanjut bikin 3 anomali
+
 ## Daftar Isi
 
 - [Fitur Utama](#-fitur-utama)
