@@ -1,25 +1,239 @@
 [
     {
-        "time": "2025-11-29 08:42:49",
+        "time": "2025-11-29 10:36:19",
         "pokemon": "Raichu",
         "text": "Attack (Electric) 30min",
         "before": {
-            "level": 27,
-            "hp": 3150,
-            "atk": 132,
+            "level": 14,
+            "hp": 1700,
+            "atk": 52,
+            "def": 8,
+            "spd": 15,
+            "energy": 70,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡"
+            ]
+        },
+        "after": {
+            "level": 18,
+            "hp": 2150,
+            "atk": 72,
+            "def": 8,
+            "spd": 15,
+            "energy": 40,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡"
+            ]
+        },
+        "unlocked": []
+    },
+    {
+        "time": "2025-11-29 10:36:10",
+        "pokemon": "Raichu",
+        "text": "Attack (Electric) 30min",
+        "before": {
+            "level": 9,
+            "hp": 1150,
+            "atk": 32,
+            "def": 8,
+            "spd": 15,
+            "energy": 100,
+            "moves": [
+                "Thunder Shock ⚡"
+            ]
+        },
+        "after": {
+            "level": 14,
+            "hp": 1700,
+            "atk": 52,
+            "def": 8,
+            "spd": 15,
+            "energy": 70,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡"
+            ]
+        },
+        "unlocked": [
+            "Spark ⚡"
+        ]
+    },
+    {
+        "time": "2025-11-29 10:36:00",
+        "pokemon": "Raichu",
+        "text": "Rest: Energy 90→100"
+    },
+    {
+        "time": "2025-11-29 10:36:00",
+        "pokemon": "Raichu",
+        "text": "Rest: Energy 70→90"
+    },
+    {
+        "time": "2025-11-29 10:31:10",
+        "pokemon": "Raichu",
+        "text": "Attack (Electric) 30min",
+        "before": {
+            "level": 5,
+            "hp": 750,
+            "atk": 12,
+            "def": 8,
+            "spd": 15,
+            "energy": 100,
+            "moves": [
+                "Thunder Shock ⚡"
+            ]
+        },
+        "after": {
+            "level": 9,
+            "hp": 1150,
+            "atk": 32,
+            "def": 8,
+            "spd": 15,
+            "energy": 70,
+            "moves": [
+                "Thunder Shock ⚡"
+            ]
+        },
+        "unlocked": []
+    },
+    {
+        "time": "2025-11-29 10:31:03",
+        "pokemon": "Raichu",
+        "text": "Rest: Energy 90→100"
+    },
+    {
+        "time": "2025-11-29 10:31:02",
+        "pokemon": "Raichu",
+        "text": "Rest: Energy 70→90"
+    },
+    {
+        "time": "2025-11-29 10:30:47",
+        "pokemon": "Squirtle",
+        "text": "Defense (Water) 30min",
+        "before": {
+            "level": 1,
+            "hp": 300,
+            "atk": 9,
+            "def": 11,
+            "spd": 7,
+            "energy": 100,
+            "moves": [
+                "Bubble Shot 💧"
+            ]
+        },
+        "after": {
+            "level": 5,
+            "hp": 750,
+            "atk": 9,
+            "def": 21,
+            "spd": 7,
+            "energy": 70,
+            "moves": [
+                "Bubble Shot 💧"
+            ]
+        },
+        "unlocked": []
+    },
+    {
+        "time": "2025-11-29 10:30:22",
+        "pokemon": "Raichu",
+        "text": "Speed (Electric) 30min",
+        "before": {
+            "level": 1,
+            "hp": 300,
+            "atk": 12,
             "def": 8,
             "spd": 10,
             "energy": 100,
             "moves": [
-                "Thunder Shock ⚡",
-                "Spark ⚡",
-                "Thunder Bolt ⚡⚡"
+                "Thunder Shock ⚡"
             ]
         },
         "after": {
-            "level": 31,
-            "hp": 3600,
-            "atk": 152,
+            "level": 5,
+            "hp": 750,
+            "atk": 12,
+            "def": 8,
+            "spd": 15,
+            "energy": 70,
+            "moves": [
+                "Thunder Shock ⚡"
+            ]
+        },
+        "unlocked": []
+    },
+    {
+        "time": "2025-11-29 10:29:14",
+        "pokemon": "Raichu",
+        "text": "Defense (Electric) 30min",
+        "before": {
+            "level": 1,
+            "hp": 300,
+            "atk": 12,
+            "def": 8,
+            "spd": 10,
+            "energy": 100,
+            "moves": [
+                "Thunder Shock ⚡"
+            ]
+        },
+        "after": {
+            "level": 6,
+            "hp": 850,
+            "atk": 12,
+            "def": 18,
+            "spd": 10,
+            "energy": 70,
+            "moves": [
+                "Thunder Shock ⚡"
+            ]
+        },
+        "unlocked": []
+    },
+    {
+        "time": "2025-11-29 10:27:07",
+        "pokemon": "Raichu",
+        "text": "Attack (Electric) 30min",
+        "before": {
+            "level": 45,
+            "hp": 5150,
+            "atk": 212,
+            "def": 8,
+            "spd": 10,
+            "energy": 40,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡",
+                "Thunder Bolt ⚡⚡",
+                "Volt Tackle ⚡💥"
+            ]
+        },
+        "after": {
+            "level": 49,
+            "hp": 5550,
+            "atk": 232,
+            "def": 8,
+            "spd": 10,
+            "energy": 10,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡",
+                "Thunder Bolt ⚡⚡",
+                "Volt Tackle ⚡💥"
+            ]
+        },
+        "unlocked": []
+    },
+    {
+        "time": "2025-11-29 10:27:03",
+        "pokemon": "Raichu",
+        "text": "Attack (Electric) 30min",
+        "before": {
+            "level": 40,
+            "hp": 4600,
+            "atk": 192,
             "def": 8,
             "spd": 10,
             "energy": 70,
@@ -30,8 +244,69 @@
                 "Volt Tackle ⚡💥"
             ]
         },
-        "unlocked": [
-            "Volt Tackle ⚡💥"
-        ]
+        "after": {
+            "level": 45,
+            "hp": 5150,
+            "atk": 212,
+            "def": 8,
+            "spd": 10,
+            "energy": 40,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡",
+                "Thunder Bolt ⚡⚡",
+                "Volt Tackle ⚡💥"
+            ]
+        },
+        "unlocked": []
+    },
+    {
+        "time": "2025-11-29 10:26:57",
+        "pokemon": "Raichu",
+        "text": "Attack (Electric) 30min",
+        "before": {
+            "level": 36,
+            "hp": 4150,
+            "atk": 172,
+            "def": 8,
+            "spd": 10,
+            "energy": 100,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡",
+                "Thunder Bolt ⚡⚡",
+                "Volt Tackle ⚡💥"
+            ]
+        },
+        "after": {
+            "level": 40,
+            "hp": 4600,
+            "atk": 192,
+            "def": 8,
+            "spd": 10,
+            "energy": 70,
+            "moves": [
+                "Thunder Shock ⚡",
+                "Spark ⚡",
+                "Thunder Bolt ⚡⚡",
+                "Volt Tackle ⚡💥"
+            ]
+        },
+        "unlocked": []
+    },
+    {
+        "time": "2025-11-29 10:26:49",
+        "pokemon": "Raichu",
+        "text": "Rest: Energy 90→100"
+    },
+    {
+        "time": "2025-11-29 10:26:47",
+        "pokemon": "Raichu",
+        "text": "Rest: Energy 70→90"
+    },
+    {
+        "time": "2025-11-29 10:26:43",
+        "pokemon": "Squirtle",
+        "text": "Rest: Energy 70→90"
     }
 ]
