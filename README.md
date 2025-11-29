@@ -84,7 +84,7 @@ http://localhost:8000
 
 ### 1. `pokemon.php`
 
-**Link**: [`pokemon.php`](./pokemon.php)
+**Link**: [`pokemon.php`](./classes/pokemon.php)
 
 **Deskripsi**: Interface yang mendefinisikan kontrak untuk semua Pokemon. Semua class Pokemon harus implement interface ini.
 
@@ -115,7 +115,7 @@ http://localhost:8000
 
 ### 2. `basePokemon.php`
 
-**Link**: [`basePokemon.php`](./basePokemon.php)
+**Link**: [`basePokemon.php`](./classes/basePokemon.php)
 
 **Deskripsi**: Abstract class yang mengimplementasikan interface `Pokemon`. Berisi implementasi default untuk semua method dan property Pokemon.
 
@@ -162,7 +162,7 @@ http://localhost:8000
 
 ### 3. `classPokemon.php`
 
-**Link**: [`classPokemon.php`](./classPokemon.php)
+**Link**: [`classPokemon.php`](./classes/classPokemon.php)
 
 **Deskripsi**: File yang berisi 4  class Pokemon yang extend `BasePokemon`. Setiap class merepresentasikan satu elemen Pokemon.
 
@@ -198,7 +198,7 @@ class ElectricPokemon extends BasePokemon {
 
 ### 4. `elemenMoves.php`
 
-**Link**: [`elemenMoves.php`](./elemenMoves.php)
+**Link**: [`elemenMoves.php`](./classes/elemenMoves.php)
 
 **Deskripsi**: Class yang menyimpan data moves untuk setiap elemen Pokemon berdasarkan level unlock.
 
@@ -236,7 +236,7 @@ class ElementMoves {
 
 ### 5. `trainingDescriptions.php`
 
-**Link**: [`trainingDescriptions.php`](./trainingDescriptions.php)
+**Link**: [`trainingDescriptions.php`](./classes/trainingDescriptions.php)
 
 **Deskripsi**: Class yang menyimpan deskripsi training untuk setiap kategori dan tipe.
 
@@ -292,7 +292,7 @@ class TrainingDescriptions {
 
 ### 6. `training.php`
 
-**Link**: [`training.php`](./training.php)
+**Link**: [`training.php`](./classes/training.php)
 
 **Deskripsi**: Class yang berisi logic untuk training Pokemon. Handle generation choices, processing training, dan perhitungan stat increase.
 
