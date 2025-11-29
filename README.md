@@ -1,5 +1,5 @@
 #  Pokemon Training Academy
-![demo](https://github.com/YoorySink/fachrielYogaWicaksono_H1H024042_ResponsiPBO25/blob/main/Pok%C3%A9mon%20Training%20Academy%20-%20Google%20Chrome%202025-11-29%2016-55-26.gif?raw=true)
+![demo](https://github.com/YoorySink/fachrielYogaWicaksono_H1H024042_ResponsiPBO25/blob/main/Pok%C3%A9mon%20Training%20Academy%20-%20Home%20-%20Google%20Chrome%202025-11-29%2017-30-56.gif?raw=true)
 
 Aplikasi web **Pokemon Training Academy** adalah sistem manajemen training Pokemon yang dibangun dengan **PHP native murni** tanpa framework. Aplikasi ini menerapkan konsep **Object-Oriented Programming (OOP)** dengan interface, abstract class, Polymorphism, dan inheritance untuk mengelola 4 jenis elemen Pokemon (Electric, Grass, Fire, Water).
 
@@ -15,8 +15,7 @@ Aplikasi web **Pokemon Training Academy** adalah sistem manajemen training Pokem
   - [4. elemenMoves.php](#4-elemenmovesphp)
   - [5. trainingDescriptions.php](#5-trainingdescriptionsphp)
   - [6. training.php](#6-trainingphp)
-  - [7. index.php](#7-indexphp)
-  - [8. history.json](#8-historyjson)
+  - [7. history.json](#8-historyjson)
 
 ---
 
@@ -383,76 +382,9 @@ class Training {
 
 ---
 
-### 7. `index.php`
-
-**Link**: [`index.php`](./index.php)
-
-**Deskripsi**: Main application file yang berisi html dan css.
-
-#### **Architecture**
-
-```
-index.php
-├── Includes (Lines 4-9)
-├── Helper Functions (Lines 12-24)
-├── Session Initialization (Lines 27-45)
-├── POST Handler / Controller (Lines 47-152)
-└── HTML View (Lines 155-end)
-```
-
-#### **1. Includes Section**
-
-| Line | File | Deskripsi |
-|------|------|-----------|
-| 4 | `pokemon.php` | Interface Pokemon |
-| 5 | `basePokemon.php` | Abstract class BasePokemon |
-| 6 | `classPokemon.php` | class pokemon perelemen |
-| 7 | `elemenMoves.php` | jurus pokemon |
-| 8 | `trainingDescriptions.php` | Training descriptions |
-| 9 | `training.php` | cara kerja Training |
-
-atau bisa langsung dengan autoload.php
-
-#### **2. Helper Functions**
-
-| Function | Parameter | Return | Deskripsi |
-|----------|-----------|--------|-----------|
-| `loadHistory()` | - | `array` | Load history dari `history.json`, return empty array jika file tidak ada |
-| `saveHistory()` | `array $history` | `void` | Save history ke `history.json` dengan format JSON pretty print |
 
 
-#### **3. Flow Diagram**
-
-```
-User Access
-    ↓
-Load Classes → session_start() → Load History
-    ↓
-Initialize Pokemon (if first visit)
-    ↓
-┌─────────────────────────────────────┐
-│  User Interaction                   │
-├─────────────────────────────────────┤
-│ 1. Select Pokemon                   │
-│ 2. Select Category (Attack/Def/Spd) │
-│ 3. Generate Choices (3 pilihan)     │
-│ 4. Select Choice                    │
-│ 5. Select Duration (10/20/30min)    │
-│ 6. Click Start Training             │
-└─────────────────────────────────────┘
-    ↓
-Process Training (Training::process)
-    ↓
-Update Pokemon Stats & Session
-    ↓
-Save History to JSON
-    ↓
-Show Alert & Refresh Page
-```
-
----
-
-### 8. `history.json`
+### 7. `history.json`
 
 **Link**: [`history.json`](./history.json)
 
@@ -549,7 +481,7 @@ Jika energy rendah (<20), klik "😴 Rest" untuk restore energy +20.
 ### 8 **Unlock Moves**
 Pokemon otomatis unlock moves baru setiap mencapai level tertentu:
 - Level 10, 20, 30
-![demo](https://github.com/YoorySink/fachrielYogaWicaksono_H1H024042_ResponsiPBO25/blob/main/Pok%C3%A9mon%20Training%20Academy%20-%20Google%20Chrome%202025-11-29%2016-55-26.gif?raw=true)
+![demo](https://github.com/YoorySink/fachrielYogaWicaksono_H1H024042_ResponsiPBO25/blob/main/Pok%C3%A9mon%20Training%20Academy%20-%20Home%20-%20Google%20Chrome%202025-11-29%2017-30-56.gif?raw=true)
 
 ---
 
